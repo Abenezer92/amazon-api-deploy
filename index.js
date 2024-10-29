@@ -45,9 +45,9 @@ app.post("/payment/create", async (req, res) => {
   }
 });
 
-app.listen(5173, (err) => {
+app.listen(5000, (err) => {
   if (err) {
     console.log(err);
   }
-  console.log(`Amazon server running on port: 5173 on http://localhost:5173`);
+  console.log(`Amazon server running on port: 5000 on http://localhost:5000`);
 });
